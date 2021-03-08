@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ***
 * Abate কমে যাওয়া
@@ -8,7 +8,7 @@ published: false
 
 ***
 * Abdicate নিজে নিজে সিংহাসন ছেড়ে দেওয়া
-    - রাজা এডওয়ার্ড VII এক divorcee র জন্য সিংহাসন ছেড়ে দিয়েছিল
+    - রাজা এডওয়ার্ড VII সিংহাসন ছেড়ে দিয়েছিল
 
 ***
 * Aberrant অস্বাভাবিক
