@@ -1,10 +1,23 @@
 Highly influenced from [Git Tutorial: A Comprehensive Guide](https://www.codepedia.org/udemy/git-tutorial-a-comprehensive-guide/)
 
+> :warning: This article address git topics non-linearly. Beginner may not find this page helpful.
+
+**Learn git, if you don't wanna see yourself sad like Hitler**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CDeG4S-mJts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Wanna learn git? Ask El Risitas**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2uYeb_c8_bk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Just kidding, even though El Risitas found learning git difficult, you will empower yourself with *anime git superpower* if you just cross the beginning threshold**
+
 ### GIT
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BZr7oJyh4WM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Git is a DVCS(Distributed Version Control System).
+Git is a DVCS(Distributed Version Control System) designed by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds).
+
+> Linus Torvalds is also a creator of linux kernel.
 
 > There are three types of VCS(Version Control System): Local, Centralised, Distributed.
 
