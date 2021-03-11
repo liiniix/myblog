@@ -1,0 +1,19 @@
+Highly influenced from [Git Tutorial: A Comprehensive Guide](https://www.codepedia.org/udemy/git-tutorial-a-comprehensive-guide/)
+
+### GIT
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Git is a DVCS(Distributed Version Control System).
+
+> There are three types of VCS(Version Control System): Local, Centralised, Distributed.
+
+It stores data in a file system made up of snapshots. Each time a commit is made, git stores snapshot of the changed files. If some files are not changed in current commit, git just stores reference to the previously stored snapshot.
+
+### States
+Files inside git can reside in three states:
+* **Committed** Snapshot is taken, securely stored in local database.
+* **Modified** File changed, but snapshot has not taken.
+* **Staged** Files flagged to be commited in next snapshot.
+
+![states]({{site.url}}/{{site.baseurl}}/assets/replenish_git/git_1.png)
