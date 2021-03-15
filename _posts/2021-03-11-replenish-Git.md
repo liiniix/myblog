@@ -98,7 +98,37 @@ $ git push origin master
 
 Let's say you made some changes: modified, staged, untracked. But you had to go to the latest commit freash and do some changes. But you don't wanna lose your current changes. `stash` will temporarily hides your changes and fetch you in the latest commit freash.
 ```bash
-$ git stash
+$ git stash save 'in the middle'
+Saved working directory and index state On main: in the middle 
+```
+```bash
+$ git stash list
+stash@{0}: On main: in the middle
+stash@{1}: On main: in the middle of something
+stash@{2}: WIP on main: 878d5df eval metrics
+stash@{3}: WIP on main: 878d5df eval metrics
+```
+We can apply any of the stash
+```bash
+$ git stash apply stash@{0}
+Removing heart.data
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You are currently bisecting, started from branch 'main'.
+  (use "git bisect reset" to get back to the original branch)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   report1.md
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    heart.data
+	modified:   report.md
 ```
 
 ### Remote repository
