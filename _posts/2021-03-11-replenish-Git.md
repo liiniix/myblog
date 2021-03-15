@@ -130,7 +130,9 @@ Changes not staged for commit:
 
 	deleted:    heart.data
 	modified:   report.md
-```
+=======
+$ git stash
+
 
 ### Remote repository
 
