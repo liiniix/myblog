@@ -65,6 +65,7 @@ alias.lg3=!git lg3-specific --all
 
 ### Git Workflow
 
+![Git Workflow]({{site.url}}/{{site.baseurl}}/assets/replenish_git/git_workflow.png)
 I think this tutorial is best for learning git workflow togther with corresponding commands:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3a2x1iJFJWc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
