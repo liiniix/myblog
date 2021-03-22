@@ -112,3 +112,42 @@ $ git remote -v
 origin	https://github.com/liiniix/myblog.git (fetch)
 origin	https://github.com/liiniix/myblog.git (push)
 ```
+
+
+### Git Difftool
+Specify which tool to use as difftool.
+```bash
+$ git config --global diff.tool vimdiff
+```
+
+We can call diff for two commits.
+
+```bash
+$ git diff HEAD asdf4t5
+```
+
+We can also diff for two commits for specific file.
+
+```bash
+$ git diff HEAD asdf4t5 -- file
+```
+> Anything after -- is a file
+
+
+```bash
+$ git diff HEAD HEAD^ -- file
+```
+
+> HEAD means the current commit we are in, HEAD^ means the first parent of current commit
+
+```difftool``` can also be invoked by placing ```difftool``` in stead of ```diff``` in previous commands.
+
+Using difftool between last commit and index:
+
+
+
+```bash
+$ git difftool --cached
+```
+
+### The Refspec
