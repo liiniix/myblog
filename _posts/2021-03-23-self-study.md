@@ -13,3 +13,16 @@ Date: 24-03-2021
 | Start time | End Time   | Studied  |
 |------------|------------|----------|
 |1:16 PM     |  4:16 PM   | 3 hours  |
+
+Date: 25-03-2021
+
+| Start time | End Time   | Studied  |
+|------------|------------|----------|
+|  |    | 1 hour  |
+
+Date: 26-03-2021
+
+| Start time | End Time | Studied |
+|------------|----------|---------|
+|            |          | 2 hours |
+
