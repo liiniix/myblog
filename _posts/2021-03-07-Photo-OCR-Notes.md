@@ -1,4 +1,16 @@
-Sliding Windoe
+# Support Vector Machines
+## Large Margin Classification
+### Optimization Objective
+We will redefine cost function.\\
+For $y=1$ , ![states]({{site.url}}/{{site.baseurl}}/assets/coursera_ml/cost1.png)\\
+For $y=0$, ![states]({{site.url}}/{{site.baseurl}}/assets/coursera_ml/cost0.png)
+
+
+
+
+
+
+Sliding Window
 <hr>
 First component of Photo OCR phipeline is text detection. But text has different spect ratio in different photos.
 
