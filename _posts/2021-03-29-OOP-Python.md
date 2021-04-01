@@ -36,3 +36,12 @@
 ```
 
 > Setting underscore `_` before any atribute name is a convention for considering that attribute as private and not to use outside the class
+
+## Debugging
+### Defensive programming
+
+* Modularizing your code
+
+### Unit test
+#### Blackbox test
+#### Glassbox test
