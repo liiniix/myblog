@@ -267,3 +267,29 @@ $ git branch -a
 $ git branch -u origin/main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 ``` 
+
+#### Merge
+
+Let's say we are in a branch named `feature1`. If we do merge with `master`, merged code will be on `feature1` branch only.
+
+```bash
+$ git merge master
+```
+
+This command will undo the merge:
+
+```bash
+$ git reset HEAD^
+```
+
+For using `vimdiff` as mergetool:
+
+```bash
+$ git config merge.tool vimdiff
+```
+
+```bash
+$ git mergetool
+```
+
+This command will show merge conflicts in comprehensive way.
