@@ -80,3 +80,5 @@ def pick(l: list, index: int) -> int:
     - `Optional` - when it might be None. Shorthand for `Union[T, None]`.
     - `TypeVar` - used with generics.
     - `Callable` - used primarily for functions, but could be used for other callables.
+
+[Example code with type hinting](https://github.com/ActivityWatch/aw-core/blob/master/aw_core/models.py)
