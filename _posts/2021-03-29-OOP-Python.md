@@ -40,8 +40,43 @@
 ## Debugging
 ### Defensive programming
 
-* Modularizing your code
 
-### Unit test
-#### Blackbox test
-#### Glassbox test
+
+#### Type Hinting
+
+Special thanks for this stackoverflow question for this: [How do Python functions handle the types of the parameters that you pass in?](https://stackoverflow.com/questions/2489669/how-do-python-functions-handle-the-types-of-the-parameters-that-you-pass-in).
+
+And special thanks for the answer of [erb](https://stackoverflow.com/users/965332/erb).
+
+* From PEP 3107 onward, we can now specify the type of parameters and return value.
+
+```python
+def pick(l: list, index: int) -> int:
+    retutn l[index]
+```
+
+* Default values can also be specified like this:
+
+```python
+def pick(l: list, index: int = 0) -> int:
+    return l[index]
+```
+
+* Although Python won't throw `TypeError`, we can use `isinstance` function and `raise TypeError`.
+
+```python
+def pick(l: list, index: int) -> int:
+    if not isinstance(l, list):
+        raise TypeError
+    return l[index]
+```
+
+* PEP 484 comes with these type hinting
+
+    - `List`, `Tuple`, `Set`, `Map` - for `list`, `tuple`, `set` and `map` respectively.
+    - `Iterable` - useful for generators.
+    - `Any` - when it could be anything.
+    - `Union` - when it could be anything within a specified set of types, as opposed to Any.
+    - `Optional` - when it might be None. Shorthand for `Union[T, None]`.
+    - `TypeVar` - used with generics.
+    - `Callable` - used primarily for functions, but could be used for other callables.

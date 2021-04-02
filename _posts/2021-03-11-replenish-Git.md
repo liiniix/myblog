@@ -183,3 +183,87 @@ $ git difftool --cached
 ```
 
 ### The Refspec
+
+### Index
+* Let's say we have changed an indexed file in git, call it `kemans.py`. Now we have to stage it:
+```bash
+$ git add -u # -u flag for adding or removing tracked files only
+```
+* Further modifications in the same file will show this:
+
+```bash
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You are currently bisecting, started from branch 'main'.
+  (use "git bisect reset" to get back to the original branch)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   kmeans.py
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   kmeans.py
+```
+Now git difftool will show corresponding changes on newer stage of file and indexed file.
+
+* `git reset HEAD <filename>` will unstage the file from index.
+
+```bash
+$ git reset HEAD kmeans.py
+Unstaged changes after reset:
+M	kmeans.py
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You are currently bisecting, started from branch 'main'.
+  (use "git bisect reset" to get back to the original branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   kmeans.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+* `git difftool` will only show the difference between current and staged files.
+
+
+### Branching
+
+* To create and go to the new branch:
+
+```bash
+$ git checkout -b feature1
+Switched to a new branch 'feature1'
+```
+* Delete a branch
+
+```bash
+$ git branch -d feature1 
+Deleted branch feature1 (was 01679cd).
+```
+
+#### Tracking branches
+
+```bash
+$ git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+```
+
+* We can add tracking branches by this:
+
+```bash
+$ git branch -u origin/main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+``` 
