@@ -17,3 +17,5 @@ UI of android app are built on hierarchy of `layouts` and `widgets`.
 Layouts are `ViewGroup` containing how their child views are positioned.
 Widgets are `View` such as buttons and text objects.
 ![]({{site.url}}/{{site.baseurl}}/assets/android/hierarchy.png)
+
+An `Intent` binds two separate components in runtime.
