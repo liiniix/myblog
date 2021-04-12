@@ -19,3 +19,5 @@
 [FB, CSEDU Desperately Seeking](https://www.facebook.com/groups/1499893353582700)
 
 [FB, CSEDU HigherStudy](https://www.facebook.com/groups/CSEDUHigherStudy)
+
+[Machine Learning Summer Schools at the Max Planck Institute for Intelligent Systems, Tübingen, Germany](http://mlss.tuebingen.mpg.de/)
