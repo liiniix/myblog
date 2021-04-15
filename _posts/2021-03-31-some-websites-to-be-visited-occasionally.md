@@ -21,3 +21,5 @@
 [FB, CSEDU HigherStudy](https://www.facebook.com/groups/CSEDUHigherStudy)
 
 [Machine Learning Summer Schools at the Max Planck Institute for Intelligent Systems, Tübingen, Germany](http://mlss.tuebingen.mpg.de/)
+
+[Machine Learning Summer School, Lonodn, 2019](https://sites.google.com/view/mlss-2019/home)
