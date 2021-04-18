@@ -39,4 +39,4 @@ $X_0, X_1, X_2,\dots $ is call simple random walk.
 
 ![]({{site.url}}/{{site.baseurl}}/assets/stochastic_process/srw.jpg)
 
-If we apply central limit theorem here, variance $\frac{1}{t}$ and standard deviation $\frac{1}{\sqrt{t}}$
+If we apply central limit theorem here, variance $\frac{1}{t}$ and standard deviation $\frac{1}{\sqrt{t}}$  
